@@ -1,0 +1,18 @@
+﻿生成启动时间为 2014/12/11 10:05:31。
+     1>项目“D:\My Documents\Visual Studio 2010\Projects\sayhello\sayhello\sayhello.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\sayhello.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\sayhello.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\My Documents\Visual Studio 2010\Projects\sayhello\Debug\sayhello.lib" /NOLOGO Debug\stdafx.obj
+         sayhello.vcxproj -> D:\My Documents\Visual Studio 2010\Projects\sayhello\Debug\sayhello.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\sayhello.unsuccessfulbuild”。
+         正在对“Debug\sayhello.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\My Documents\Visual Studio 2010\Projects\sayhello\sayhello\sayhello.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.40

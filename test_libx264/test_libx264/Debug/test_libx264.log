@@ -1,0 +1,26 @@
+﻿生成启动时间为 2015/2/5 14:23:25。
+     1>项目“d:\my documents\visual studio 2010\Projects\test_libx264\test_libx264\test_libx264.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\test_libx264.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\my documents\visual studio 2010\Projects\test_libx264\Debug\test_libx264.exe" /INCREMENTAL /NOLOGO "libx264-142.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test_libx264.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\my documents\visual studio 2010\Projects\test_libx264\Debug\test_libx264.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\my documents\visual studio 2010\Projects\test_libx264\Debug\test_libx264.lib" /MACHINE:X86 Debug\test_libx264.exe.embed.manifest.res
+         Debug\example.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\test_libx264.exe.embed.manifest" /manifest Debug\test_libx264.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\test_libx264.exe.embed.manifest.res" Debug\test_libx264_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\my documents\visual studio 2010\Projects\test_libx264\Debug\test_libx264.exe" /INCREMENTAL /NOLOGO "libx264-142.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test_libx264.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\my documents\visual studio 2010\Projects\test_libx264\Debug\test_libx264.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\my documents\visual studio 2010\Projects\test_libx264\Debug\test_libx264.lib" /MACHINE:X86 Debug\test_libx264.exe.embed.manifest.res
+         Debug\example.obj
+         test_libx264.vcxproj -> d:\my documents\visual studio 2010\Projects\test_libx264\Debug\test_libx264.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\test_libx264.unsuccessfulbuild”。
+         正在对“Debug\test_libx264.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“d:\my documents\visual studio 2010\Projects\test_libx264\test_libx264\test_libx264.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.66

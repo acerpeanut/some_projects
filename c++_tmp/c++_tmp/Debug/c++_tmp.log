@@ -1,0 +1,21 @@
+﻿生成启动时间为 2015/2/9 9:39:31。
+     1>项目“D:\My Documents\Visual Studio 2010\Projects\c++_tmp\c++_tmp\c++_tmp.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\c++_tmp.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt c.cpp
+         c.cpp
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\My Documents\Visual Studio 2010\Projects\c++_tmp\Debug\c++_tmp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\c++_tmp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\My Documents\Visual Studio 2010\Projects\c++_tmp\Debug\c++_tmp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\My Documents\Visual Studio 2010\Projects\c++_tmp\Debug\c++_tmp.lib" /MACHINE:X86 Debug\c++_tmp.exe.embed.manifest.res
+         Debug\b.obj
+         Debug\c.obj
+         Debug\main.obj
+     1>c.obj : error LNK2005: "int __cdecl rate(void)" (?rate@@YAHXZ) 已经在 b.obj 中定义
+     1>D:\My Documents\Visual Studio 2010\Projects\c++_tmp\Debug\c++_tmp.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“D:\My Documents\Visual Studio 2010\Projects\c++_tmp\c++_tmp\c++_tmp.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.34

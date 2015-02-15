@@ -1,0 +1,304 @@
+﻿生成启动时间为 2015/2/9 9:40:47。
+     1>项目“D:\My Documents\Visual Studio 2010\Projects\libcurl_1\libcurl_1\libcurl_1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\libcurl_1.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt libcurl_main.c stdafx.c
+         stdafx.c
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.c(732): warning C4273: “curl_formadd”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1845) : 参见“curl_formadd”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.c(918): warning C4273: “curl_formget”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1870) : 参见“curl_formget”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.c(963): warning C4273: “curl_formfree”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1879) : 参见“curl_formfree”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(342): warning C4133: “函数”: 从“char *”到“const PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(355): warning C4133: “函数”: 从“char *”到“PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(356): warning C4133: “函数”: 从“char *”到“PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(361): warning C4133: “函数”: 从“char *”到“PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(362): warning C4133: “函数”: 从“char *”到“PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(370): warning C4133: “函数”: 从“char *”到“const PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(371): warning C4133: “函数”: 从“char *”到“const PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(371): warning C4133: “函数”: 从“char **”到“PWCHAR *”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(384): warning C4133: “初始化”: 从“PWCHAR”到“char *”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(401): warning C4133: “=”: 从“PWCHAR”到“char *”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(403): warning C4133: “=”: 从“PWCHAR”到“char *”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(404): warning C4133: “函数”: 从“char *”到“const PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(434): warning C4133: “函数”: 从“char *”到“PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(435): warning C4133: “函数”: 从“char *”到“PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(471): warning C4133: “函数”: 从“char *”到“PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ldap.c(473): warning C4133: “函数”: 从“char *”到“PWCHAR”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\version.c(66): warning C4273: “curl_version”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1898) : 参见“curl_version”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\version.c(165): error C2371: “protocols”: 重定义；不同的基类型
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\url.c(161) : 参见“protocols”的声明
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\version.c(306): warning C4133: “初始化”: 从“const Curl_handler *const *”到“const char *const *”的类型不兼容
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\version.c(315): warning C4273: “curl_version_info”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(2282) : 参见“curl_version_info”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\getenv.c(51): warning C4273: “curl_getenv”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1889) : 参见“curl_getenv”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\escape.c(71): warning C4273: “curl_escape”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1914) : 参见“curl_escape”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\escape.c(77): warning C4273: “curl_unescape”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1935) : 参见“curl_unescape”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\escape.c(82): warning C4273: “curl_easy_escape”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1909) : 参见“curl_easy_escape”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\escape.c(214): warning C4273: “curl_easy_unescape”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1929) : 参见“curl_easy_unescape”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\escape.c(231): warning C4273: “curl_free”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1946) : 参见“curl_free”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\mprintf.c(968): warning C4273: “curl_mvsnprintf”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\mprintf.h(42) : 参见“curl_mvsnprintf”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\mprintf.c(989): warning C4273: “curl_msnprintf”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\mprintf.h(37) : 参见“curl_msnprintf”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\mprintf.c(1034): warning C4273: “curl_maprintf”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\mprintf.h(44) : 参见“curl_maprintf”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\mprintf.c(1061): warning C4273: “curl_mvaprintf”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\mprintf.h(45) : 参见“curl_mvaprintf”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\mprintf.c(1095): warning C4273: “curl_msprintf”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\mprintf.h(36) : 参见“curl_msprintf”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\mprintf.c(1106): warning C4273: “curl_mprintf”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\mprintf.h(34) : 参见“curl_mprintf”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\mprintf.c(1117): warning C4273: “curl_mfprintf”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\mprintf.h(35) : 参见“curl_mfprintf”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\mprintf.c(1127): warning C4273: “curl_mvsprintf”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\mprintf.h(41) : 参见“curl_mvsprintf”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\mprintf.c(1135): warning C4273: “curl_mvprintf”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\mprintf.h(39) : 参见“curl_mvprintf”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\mprintf.c(1140): warning C4273: “curl_mvfprintf”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\mprintf.h(40) : 参见“curl_mvfprintf”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\strequal.c(35): warning C4273: “curl_strequal”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1753) : 参见“curl_strequal”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\strequal.c(58): warning C4273: “curl_strnequal”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1754) : 参见“curl_strnequal”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(226): warning C4273: “curl_global_init”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1958) : 参见“curl_global_init”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(296): warning C4273: “curl_global_init_mem”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1973) : 参见“curl_global_init_mem”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(329): warning C4273: “curl_global_cleanup”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(1988) : 参见“curl_global_cleanup”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(360): warning C4273: “curl_easy_init”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\easy.h(28) : 参见“curl_easy_init”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(391): warning C4273: “curl_easy_setopt”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\easy.h(29) : 参见“curl_easy_setopt”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(823): warning C4273: “curl_easy_perform”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\easy.h(30) : 参见“curl_easy_perform”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(844): warning C4273: “curl_easy_cleanup”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\easy.h(31) : 参见“curl_easy_cleanup”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(862): warning C4273: “curl_easy_getinfo”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\easy.h(46) : 参见“curl_easy_getinfo”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(883): warning C4273: “curl_easy_duphandle”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\easy.h(61) : 参见“curl_easy_duphandle”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(978): warning C4273: “curl_easy_reset”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\easy.h(74) : 参见“curl_easy_reset”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(1010): warning C4273: “curl_easy_pause”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(2315) : 参见“curl_easy_pause”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(1080): warning C4273: “curl_easy_recv”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\easy.h(84) : 参见“curl_easy_recv”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\easy.c(1108): warning C4273: “curl_easy_send”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\easy.h(95) : 参见“curl_easy_send”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(353): warning C4273: “curl_multi_init”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(114) : 参见“curl_multi_init”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(360): warning C4273: “curl_multi_add_handle”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(123) : 参见“curl_multi_add_handle”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(491): warning C4273: “curl_multi_remove_handle”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(133) : 参见“curl_multi_remove_handle”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(738): warning C4273: “curl_multi_fdset”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(145) : 参见“curl_multi_fdset”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(790): warning C4273: “curl_multi_wait”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(159) : 参见“curl_multi_wait”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(1780): warning C4273: “curl_multi_perform”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(181) : 参见“curl_multi_perform”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(1865): warning C4273: “curl_multi_cleanup”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(194) : 参见“curl_multi_cleanup”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(1940): warning C4273: “curl_multi_info_read”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(224) : 参见“curl_multi_info_read”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(2344): warning C4273: “curl_multi_setopt”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(379) : 参见“curl_multi_setopt”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(2409): warning C4273: “curl_multi_socket”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(281) : 参见“curl_multi_socket”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(2419): warning C4273: “curl_multi_socket_action”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(284) : 参见“curl_multi_socket_action”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(2429): warning C4273: “curl_multi_socket_all”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(289) : 参见“curl_multi_socket_all”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(2474): warning C4273: “curl_multi_timeout”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(308) : 参见“curl_multi_timeout”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\multi.c(2724): warning C4273: “curl_multi_assign”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(392) : 参见“curl_multi_assign”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\share.c(36): warning C4273: “curl_share_init”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(2198) : 参见“curl_share_init”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\share.c(47): warning C4273: “curl_share_setopt”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(2199) : 参见“curl_share_setopt”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\share.c(179): warning C4273: “curl_share_cleanup”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(2200) : 参见“curl_share_cleanup”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\strerror.c(53): warning C4273: “curl_easy_strerror”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(2293) : 参见“curl_easy_strerror”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\strerror.c(342): warning C4273: “curl_multi_strerror”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\multi.h(236) : 参见“curl_multi_strerror”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\strerror.c(387): warning C4273: “curl_share_strerror”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(2304) : 参见“curl_share_strerror”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\parsedate.c(547): warning C4273: “curl_getdate”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(2025) : 参见“curl_getdate”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\slist.c(89): warning C4273: “curl_slist_append”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(2004) : 参见“curl_slist_append”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\slist.c(128): warning C4273: “curl_slist_free_all”: dll 链接不一致
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\include\curl\curl.h(2014) : 参见“curl_slist_free_all”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\imap.c(418): error C2084: 函数“void _state(connectdata *,ftpstate)”已有主体
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\ftp.c(101) : 参见“_state”的前一个定义
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(314): error C2065: “NTLMFLAG_NEGOTIATE_TARGET_INFO”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_OEM”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_REQUEST_TARGET”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_NTLM_KEY”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_ALWAYS_SIGN”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_OEM”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_REQUEST_TARGET”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_NTLM_KEY”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_ALWAYS_SIGN”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_OEM”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_REQUEST_TARGET”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_NTLM_KEY”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_ALWAYS_SIGN”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_OEM”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_REQUEST_TARGET”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_NTLM_KEY”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(426): error C2065: “NTLMFLAG_NEGOTIATE_ALWAYS_SIGN”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_ntlm_msgs.c(522): error C2065: “NTLMFLAG_NEGOTIATE_UNICODE”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(313): error C2027: 使用了未定义类型“smb_header”
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(313) : 参见“smb_header”的声明
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(345): error C2027: 使用了未定义类型“smb_header”
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(338) : 参见“smb_header”的声明
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(346): error C2037: “nbt_length”的左侧部分指定未定义的结构/联合“smb_header”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(346): error C2027: 使用了未定义类型“smb_header”
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(338) : 参见“smb_header”的声明
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(348): error C2037: “magic”的左侧部分指定未定义的结构/联合“smb_header”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(348): warning C4022: “memcpy”: 指针与实参 2 不匹配
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(348): error C2198: “memcpy”: 用于调用的参数太少
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(349): error C2037: “command”的左侧部分指定未定义的结构/联合“smb_header”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(350): error C2037: “flags”的左侧部分指定未定义的结构/联合“smb_header”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(350): error C2065: “SMB_FLAGS_CANONICAL_PATHNAMES”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(350): error C2065: “SMB_FLAGS_CASELESS_PATHNAMES”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(351): error C2037: “flags2”的左侧部分指定未定义的结构/联合“smb_header”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(351): error C2065: “SMB_FLAGS2_IS_LONG_NAME”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(351): error C2065: “SMB_FLAGS2_KNOWS_LONG_NAME”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(352): error C2037: “uid”的左侧部分指定未定义的结构/联合“smb_header”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(353): error C2037: “tid”的左侧部分指定未定义的结构/联合“smb_header”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(355): error C2037: “pid_high”的左侧部分指定未定义的结构/联合“smb_header”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(356): error C2037: “pid”的左侧部分指定未定义的结构/联合“smb_header”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(406): error C2027: 使用了未定义类型“smb_header”
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(338) : 参见“smb_header”的声明
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(408): error C2027: 使用了未定义类型“smb_header”
+                 d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(338) : 参见“smb_header”的声明
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(415): error C2065: “SMB_COM_NEGOTIATE”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(421): error C2079: “msg”使用未定义的 struct“smb_setup”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(422): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(431): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(444): error C2224: “.word_count”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(444): error C2065: “SMB_WC_SETUP_ANDX”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(445): error C2224: “.andx”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(445): error C2065: “SMB_COM_NO_ANDX_COMMAND”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(446): error C2224: “.max_buffer_size”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(447): error C2224: “.max_mpx_count”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(448): error C2224: “.vc_number”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(449): error C2224: “.session_key”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(450): error C2224: “.capabilities”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(450): error C2065: “SMB_CAP_LARGE_FILES”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(451): error C2224: “.lengths”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(452): error C2224: “.lengths”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(461): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(462): error C2224: “.byte_count”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(464): error C2065: “SMB_COM_SETUP_ANDX”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(465): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(465): error C2198: “smb_send_message”: 用于调用的参数太少
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(471): error C2079: “msg”使用未定义的 struct“smb_tree_connect”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(472): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(476): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(480): error C2224: “.word_count”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(480): error C2065: “SMB_WC_TREE_CONNECT_ANDX”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(481): error C2224: “.andx”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(481): error C2065: “SMB_COM_NO_ANDX_COMMAND”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(482): error C2224: “.pw_len”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(488): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(489): error C2224: “.byte_count”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(491): error C2065: “SMB_COM_TREE_CONNECT_ANDX”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(492): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(492): error C2198: “smb_send_message”: 用于调用的参数太少
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(498): error C2079: “msg”使用未定义的 struct“smb_nt_create”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(501): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(505): error C2224: “.word_count”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(505): error C2065: “SMB_WC_NT_CREATE_ANDX”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(506): error C2224: “.andx”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(506): error C2065: “SMB_COM_NO_ANDX_COMMAND”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(508): error C2224: “.name_length”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(509): error C2224: “.share_access”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(509): error C2065: “SMB_FILE_SHARE_ALL”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(511): error C2224: “.access”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(511): error C2065: “SMB_GENERIC_READ”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(511): error C2065: “SMB_GENERIC_WRITE”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(512): error C2224: “.create_disposition”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(512): error C2065: “SMB_FILE_OVERWRITE_IF”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(515): error C2224: “.access”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(515): error C2065: “SMB_GENERIC_READ”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(516): error C2224: “.create_disposition”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(516): error C2065: “SMB_FILE_OPEN”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(518): error C2224: “.byte_count”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(519): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(519): error C2198: “strcpy”: 用于调用的参数太少
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(521): error C2065: “SMB_COM_NT_CREATE_ANDX”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(522): error C2224: “.bytes”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(522): error C2198: “smb_send_message”: 用于调用的参数太少
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(528): error C2079: “msg”使用未定义的 struct“smb_close”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(531): error C2224: “.word_count”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(531): error C2065: “SMB_WC_CLOSE”: 未声明的标识符
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(532): error C2224: “.fid”的左侧必须具有结构/联合类型
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\smb.c(532): fatal error C1003: 错误计数超过 100；正在停止编译
+         libcurl_main.c
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(63): error C2061: 语法错误: 标识符“Curl_resolver_init”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(63): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(63): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(101): error C2143: 语法错误 : 缺少“)”(在“*”的前面)
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(101): error C2081: “curl_socket_t”: 形参表中的名称非法
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(101): error C2143: 语法错误 : 缺少“{”(在“*”的前面)
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(102): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(102): error C2059: 语法错误:“)”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(113): error C2061: 语法错误: 标识符“Curl_resolver_is_resolved”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(113): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(113): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(128): error C2061: 语法错误: 标识符“Curl_resolver_wait_resolv”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(128): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\asyn.h(128): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(149): error C2061: 语法错误: 标识符“Curl_async_resolved”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(149): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(149): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(162): error C2061: 语法错误: 标识符“Curl_addrinfo_callback”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(162): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(162): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(212): error C2061: 语法错误: 标识符“Curl_set_dns_servers”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(212): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(212): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(218): error C2061: 语法错误: 标识符“Curl_set_dns_interface”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(218): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(218): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(225): error C2061: 语法错误: 标识符“Curl_set_dns_local_ip4”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(225): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(225): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(232): error C2061: 语法错误: 标识符“Curl_set_dns_local_ip6”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(232): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(232): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(248): error C2061: 语法错误: 标识符“Curl_loadhostpairs”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(248): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\hostip.h(248): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.h(47): error C2061: 语法错误: 标识符“curl_read_callback”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.h(48): error C2059: 语法错误:“}”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.h(73): error C2061: 语法错误: 标识符“Curl_getformdata”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.h(73): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.h(73): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.h(96): error C2061: 语法错误: 标识符“Curl_formconvert”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.h(96): error C2059: 语法错误:“;”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\formdata.h(96): error C2059: 语法错误:“类型”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\http.h(137): error C2079: “form”使用未定义的 struct“Form”
+     1>d:\my documents\visual studio 2010\projects\libcurl_1\libcurl_1\lib\curl_memory.h(78): fatal error C1189: #error :  "Header memdebug.h shall not be included before curl_memory.h"
+         正在生成代码...
+     1>已完成生成项目“D:\My Documents\Visual Studio 2010\Projects\libcurl_1\libcurl_1\libcurl_1.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.84
