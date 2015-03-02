@@ -17,9 +17,70 @@ typedef struct o_bmp{
   GLubyte 	 *pixel_data;
 }o_bmp;
 
+#define MIRROR_DIR_0 0
+#define MIRROR_DIR_V 1
+#define MIRROR_DIR_H 2
+
+
 
 void init_and_load(o_bmp*p,int w,int h,char* path);
 void draw_pic(o_bmp* pic, GLfloat x, GLfloat y);
+void draw_pic_origin(o_bmp* pic, 
+	GLfloat x, GLfloat y,               // position
+	GLfloat colorR, GLfloat colorG, GLfloat colorB, GLfloat colorA, // color
+	GLfloat RotateR,                    // rotate
+	GLfloat startX, GLfloat startY,     // cut start point
+	GLfloat endX, GLfloat endY,         // cut end point
+	GLfloat width, GLfloat height);
+
+void o_bmp_bilt_c_ct_Base(GLfloat x_d, GLfloat y_d,
+	GLfloat startX, GLfloat startY,
+	GLfloat allignX, GLfloat allignY,
+	GLfloat cutWidth, GLfloat cutHeight,
+	GLint mirror_dir,
+	GLfloat colorR, GLfloat colorG, GLfloat colorB, GLfloat colorA,
+	o_bmp* pic);
+void o_bmp_bilt_c_ct_0(GLfloat x_d, GLfloat y_d,
+	GLfloat startX, GLfloat startY,
+	GLfloat allignX, GLfloat allignY,
+	GLfloat cutWidth, GLfloat cutHeight,
+	o_bmp* pic);
+
+#define o_bmp_bilt_c_ct_V(a,b,c,d,e,f,g,h,i)  o_bmp_bilt_c_ct_Base(  \
+												a,b,c,d,e,f,g,h,     \
+												MIRROR_DIR_V,        \
+												1.0,1.0,1.0,1.0,i)
+/*void o_bmp_bilt_c_ct_V(GLfloat x_d, GLfloat y_d,
+	GLfloat startX, GLfloat startY,
+	GLfloat allignX, GLfloat allignY,
+	GLfloat cutWidth, GLfloat cutHeight,
+	o_bmp* pic);*/
+void o_bmp_bilt_c_ct_H(GLfloat x_d, GLfloat y_d,
+	GLfloat startX, GLfloat startY,
+	GLfloat allignX, GLfloat allignY,
+	GLfloat cutWidth, GLfloat cutHeight,
+	o_bmp* pic);
+
+
+void o_bmp_silt_c_ct_0(GLfloat x_d, GLfloat y_d,
+	GLfloat scaleX, GLfloat scaleY,
+	GLfloat startX, GLfloat startY,
+	GLfloat allignX, GLfloat allignY,
+	GLfloat cutWidth, GLfloat cutHeight,
+	o_bmp* pic);
+void o_bmp_silt_c_ct_V(GLfloat x_d, GLfloat y_d,
+	GLfloat scaleX, GLfloat scaleY,
+	GLfloat startX, GLfloat startY,
+	GLfloat allignX, GLfloat allignY,
+	GLfloat cutWidth, GLfloat cutHeight,
+	o_bmp* pic);
+void o_bmp_silt_c_ct_H(GLfloat x_d, GLfloat y_d,
+	GLfloat scaleX, GLfloat scaleY,
+	GLfloat startX, GLfloat startY,
+	GLfloat allignX, GLfloat allignY,
+	GLfloat cutWidth, GLfloat cutHeight,
+	o_bmp* pic);
+
 
 
 #endif

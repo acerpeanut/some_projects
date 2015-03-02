@@ -2,7 +2,7 @@
 AR_RC = ar rcs
 CC = gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -g -O2 -Wall -pedantic -std=c11
+CFLAGS = -g -O0 -Wall -pedantic -std=c11
 CPP = gcc -E
 CPPFLAGS = 
 
@@ -24,6 +24,9 @@ soliar.o: soliar.h
 o_bmp.o:  o_bmp.h HS_ADAPT.h
 
 main_1.o: o_bmp.h soliar.h
+
+clean:
+	rm *.o *.exe
 
 
 
