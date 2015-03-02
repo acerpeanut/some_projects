@@ -11,11 +11,8 @@ void Win_Reshape(int width,int height){
 }
 void Win_RenderScene(void) {
   glClear(GL_COLOR_BUFFER_BIT);
-  //draw_pic(&earth,0.1,0.1);
-  o_bmp_bilt_c_ct_V(0, 0, 0, 0, 0.5, 0.5, 1, 1, &earth);
-  printf("%d\n",earth.texture_ID);
-  printf("%d\n",earth.width);
-  printf("%d\n",earth.height);
+  o_bmp_silt_c_ct_0(0, 0, 1, 1, 0, 0, 1, 0.5, 1, 1, &earth);
+
   glFlush();
 }
 int Win_Init(){

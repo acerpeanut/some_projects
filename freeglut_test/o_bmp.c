@@ -134,108 +134,42 @@ void o_bmp_bilt_c_ct_Base(GLfloat x_d, GLfloat y_d,
 	// 	startY + cutHeight,
 	// 	w, h);
 }
-void o_bmp_bilt_c_ct_0(GLfloat x_d, GLfloat y_d,
-	GLfloat startX, GLfloat startY,
-	GLfloat allignX, GLfloat allignY,
-	GLfloat cutWidth, GLfloat cutHeight,
-	o_bmp* pic)
-{
-	GLfloat w = HS_INT_FLT_W(pic->width) * cutWidth;
-	GLfloat h = HS_INT_FLT_H(pic->height) * cutHeight;
-	draw_pic_origin(pic,
-		x_d - w*allignX, y_d - h*allignY,
-		1.0, 1.0, 1.0, 1.0,
-		0,
-		startX, startY,
-		startX + cutWidth, 
-		startY + cutHeight,
-		w, h);
-}
-/*void o_bmp_bilt_c_ct_V(GLfloat x_d, GLfloat y_d,
-	GLfloat startX, GLfloat startY,
-	GLfloat allignX, GLfloat allignY,
-	GLfloat cutWidth, GLfloat cutHeight,
-	o_bmp* pic)
-{
-	GLfloat w = HS_INT_FLT_W(pic->width) * cutWidth;
-	GLfloat h = HS_INT_FLT_H(pic->height) * cutHeight;
-	draw_pic_origin(pic,
-		x_d - w*allignX, y_d - h*allignY,
-		1.0, 1.0, 1.0, 1.0,
-		0,
-		startX, startY + cutHeight,
-		startX + cutWidth, 
-		startY,
-		w, h);
-}*/
-void o_bmp_bilt_c_ct_H(GLfloat x_d, GLfloat y_d,
-	GLfloat startX, GLfloat startY,
-	GLfloat allignX, GLfloat allignY,
-	GLfloat cutWidth, GLfloat cutHeight,
-	o_bmp* pic)
-{
-	GLfloat w = HS_INT_FLT_W(pic->width) * cutWidth;
-	GLfloat h = HS_INT_FLT_H(pic->height) * cutHeight;
-	draw_pic_origin(pic,
-		x_d - w*allignX, y_d - h*allignY,
-		1.0, 1.0, 1.0, 1.0,
-		0,
-		startX + cutWidth, startY,
-		startX, 
-		startY + cutHeight,
-		w, h);
-}
-void o_bmp_silt_c_ct_0(GLfloat x_d, GLfloat y_d,
+
+void o_bmp_silt_c_ct_Base(GLfloat x_d, GLfloat y_d,
 	GLfloat scaleX, GLfloat scaleY,
 	GLfloat startX, GLfloat startY,
 	GLfloat allignX, GLfloat allignY,
 	GLfloat cutWidth, GLfloat cutHeight,
+	GLint mirror_dir,
+	GLfloat colorR, GLfloat colorG, GLfloat colorB, GLfloat colorA,
 	o_bmp* pic)
 {
 	GLfloat w = HS_INT_FLT_W(pic->width) * cutWidth * scaleX;
 	GLfloat h = HS_INT_FLT_H(pic->height) * cutHeight * scaleY;
+
+	GLfloat s_x = startX;
+	GLfloat s_y = startY;
+	GLfloat e_x = startX + cutWidth;
+	GLfloat e_y = startY + cutHeight;
+
+	switch(mirror_dir){
+		case MIRROR_DIR_0:
+			break;
+		case MIRROR_DIR_V:
+			s_y = startY + cutHeight;
+			e_y = startY;
+			break;
+		case MIRROR_DIR_H:
+			s_x = startX + cutWidth;
+			e_x = startX;
+			break;
+	}
+
 	draw_pic_origin(pic,
 		x_d - w*allignX, y_d - h*allignY,
-		1.0, 1.0, 1.0, 1.0,
+		colorR, colorG, colorB, colorA,
 		0,
-		startX, startY,
-		startX + cutWidth, 
-		startY + cutHeight,
-		w, h);
-}
-void o_bmp_silt_c_ct_V(GLfloat x_d, GLfloat y_d,
-	GLfloat scaleX, GLfloat scaleY,
-	GLfloat startX, GLfloat startY,
-	GLfloat allignX, GLfloat allignY,
-	GLfloat cutWidth, GLfloat cutHeight,
-	o_bmp* pic)
-{
-	GLfloat w = HS_INT_FLT_W(pic->width) * cutWidth * scaleX;
-	GLfloat h = HS_INT_FLT_H(pic->height) * cutHeight * scaleY;
-	draw_pic_origin(pic,
-		x_d - w*allignX, y_d - h*allignY,
-		1.0, 1.0, 1.0, 1.0,
-		0,
-		startX, startY + cutHeight,
-		startX + cutWidth, 
-		startY,
-		w, h);
-}
-void o_bmp_silt_c_ct_H(GLfloat x_d, GLfloat y_d,
-	GLfloat scaleX, GLfloat scaleY,
-	GLfloat startX, GLfloat startY,
-	GLfloat allignX, GLfloat allignY,
-	GLfloat cutWidth, GLfloat cutHeight,
-	o_bmp* pic)
-{
-	GLfloat w = HS_INT_FLT_W(pic->width) * cutWidth * scaleX;
-	GLfloat h = HS_INT_FLT_H(pic->height) * cutHeight * scaleY;
-	draw_pic_origin(pic,
-		x_d - w*allignX, y_d - h*allignY,
-		1.0, 1.0, 1.0, 1.0,
-		0,
-		startX + cutWidth, startY,
-		startX, 
-		startY + cutHeight,
+		s_x, s_y,
+		e_x, e_y,
 		w, h);
 }

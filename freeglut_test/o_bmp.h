@@ -40,46 +40,49 @@ void o_bmp_bilt_c_ct_Base(GLfloat x_d, GLfloat y_d,
 	GLint mirror_dir,
 	GLfloat colorR, GLfloat colorG, GLfloat colorB, GLfloat colorA,
 	o_bmp* pic);
-void o_bmp_bilt_c_ct_0(GLfloat x_d, GLfloat y_d,
-	GLfloat startX, GLfloat startY,
-	GLfloat allignX, GLfloat allignY,
-	GLfloat cutWidth, GLfloat cutHeight,
-	o_bmp* pic);
+
+#define o_bmp_bilt_c_ct_0(a,b,c,d,e,f,g,h,i)  o_bmp_bilt_c_ct_Base(  \
+												a,b,c,d,e,f,g,h,     \
+												MIRROR_DIR_0,        \
+												1.0,1.0,1.0,1.0,i)
 
 #define o_bmp_bilt_c_ct_V(a,b,c,d,e,f,g,h,i)  o_bmp_bilt_c_ct_Base(  \
 												a,b,c,d,e,f,g,h,     \
 												MIRROR_DIR_V,        \
 												1.0,1.0,1.0,1.0,i)
-/*void o_bmp_bilt_c_ct_V(GLfloat x_d, GLfloat y_d,
-	GLfloat startX, GLfloat startY,
-	GLfloat allignX, GLfloat allignY,
-	GLfloat cutWidth, GLfloat cutHeight,
-	o_bmp* pic);*/
-void o_bmp_bilt_c_ct_H(GLfloat x_d, GLfloat y_d,
-	GLfloat startX, GLfloat startY,
-	GLfloat allignX, GLfloat allignY,
-	GLfloat cutWidth, GLfloat cutHeight,
-	o_bmp* pic);
+
+#define o_bmp_bilt_c_ct_H(a,b,c,d,e,f,g,h,i)  o_bmp_bilt_c_ct_Base(  \
+												a,b,c,d,e,f,g,h,     \
+												MIRROR_DIR_H,        \
+												1.0,1.0,1.0,1.0,i)
 
 
-void o_bmp_silt_c_ct_0(GLfloat x_d, GLfloat y_d,
+
+void o_bmp_silt_c_ct_Base(GLfloat x_d, GLfloat y_d,
 	GLfloat scaleX, GLfloat scaleY,
 	GLfloat startX, GLfloat startY,
 	GLfloat allignX, GLfloat allignY,
 	GLfloat cutWidth, GLfloat cutHeight,
+	GLint mirror_dir,
+	GLfloat colorR, GLfloat colorG, GLfloat colorB, GLfloat colorA,
 	o_bmp* pic);
-void o_bmp_silt_c_ct_V(GLfloat x_d, GLfloat y_d,
-	GLfloat scaleX, GLfloat scaleY,
-	GLfloat startX, GLfloat startY,
-	GLfloat allignX, GLfloat allignY,
-	GLfloat cutWidth, GLfloat cutHeight,
-	o_bmp* pic);
-void o_bmp_silt_c_ct_H(GLfloat x_d, GLfloat y_d,
-	GLfloat scaleX, GLfloat scaleY,
-	GLfloat startX, GLfloat startY,
-	GLfloat allignX, GLfloat allignY,
-	GLfloat cutWidth, GLfloat cutHeight,
-	o_bmp* pic);
+
+#define o_bmp_silt_c_ct_0(a,b,cc,dd,c,d,e,f,g,h,i)  o_bmp_silt_c_ct_Base(      \
+													a,b,cc,dd,c,d,e,f,g,h,     \
+													MIRROR_DIR_0,              \
+													1.0,1.0,1.0,1.0,i)
+
+#define o_bmp_silt_c_ct_V(a,b,cc,dd,c,d,e,f,g,h,i)  o_bmp_silt_c_ct_Base(      \
+													a,b,cc,dd,c,d,e,f,g,h,     \
+													MIRROR_DIR_V,              \
+													1.0,1.0,1.0,1.0,i)
+
+#define o_bmp_silt_c_ct_H(a,b,cc,dd,c,d,e,f,g,h,i)  o_bmp_silt_c_ct_Base(      \
+													a,b,cc,dd,c,d,e,f,g,h,     \
+													MIRROR_DIR_H,              \
+													1.0,1.0,1.0,1.0,i)
+
+
 
 
 
